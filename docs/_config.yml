@@ -20,7 +20,7 @@
 
 title: Philip Loewen
 email: philip.m.loewen@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
+description: >- Student of Mathematics and Statistics at the University of British Columbia.
   
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://ploewen.github.io # the base hostname & protocol for your site, e.g. http://example.com

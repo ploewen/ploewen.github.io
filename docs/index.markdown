@@ -18,7 +18,6 @@ layout: default
   Baccalauréat Scientifique, spécialité maths <br>
   2015-2018
 <br>
-<br>
 
 ## Projects
 
@@ -31,7 +30,7 @@ layout: default
   
 - **[Predicting death following a heart failure](stat_306.html)** <br>
   Group project for STAT 306, Finding Relationships in Data. Using logistic regression and variable selection based on AIC and BIC, we correctly predicted the death of patients following a heart failure with 86.7% correct prediction rate.
-
+<br>
 
 ##  Distinctions
 

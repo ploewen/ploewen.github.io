@@ -24,7 +24,7 @@ layout: default
 - **[Obesity level prediction based on lifestyle using k-nn](dsci_100.html)** <br>
   Group project for DSCI 100, Introduction to Data Science. We correctly predicted obesity levels at a rate of 72%, using physical activity frequency, water intake, daily technology usage and weight. <br>
   
-- **[Testing the difference in crime rates in Kitsilano and Hastings-Sunrise**](stat_201.html)**<br>
+- **[Testing the difference in crime rates in Kitsilano and Hastings-Sunrise](stat_201.html)**<br>
   Group project for STAT 201, Introduction to Statistical Inference. We found that there is a significant difference in crime rates between the two neighbourhoods using hypothesis testing at a 95% confidence level. <br>
   
   

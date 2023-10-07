@@ -7,7 +7,7 @@ layout: default
 ## Education
 
 - **University of British Columbia** <br>
-  Bachelor of Science, GPA: 84.7% <br>
+  Bachelor of Science, Mathematics, GPA: 84.7% <br>
   2021 - present
   
 - **University of the Fraser Valley** <br>

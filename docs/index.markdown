@@ -23,6 +23,9 @@ layout: default
 
 - **[Predicting death following a heart failure](stat_306.html)** (Spring 2023)<br>
   Group project for STAT 306, Finding Relationships in Data. Using logistic regression and variable selection based on AIC and BIC, we correctly predicted the death of patients following a heart failure with 86.7% correct prediction rate.<br>
+
+- **[Optimal Water Allocation for Agricultural Production in British Columbia](math_340.html)** (Spring 2023)<br>
+  Personal project for a class on Linear Optimization. In this project I looked to optimize allocation of water during summer droughts in order to maximize industry revenue. By researching government data sets on water reserves and farm types and sizes in the province, I used Python to find how much water each farm type should receive, using the simplex algorithm. <br>
   
 - **[Testing the difference in crime rates in Kitsilano and Hastings-Sunrise ](stat_201.html)** (Fall 2022)<br>
   Group project for STAT 201, Introduction to Statistical Inference. We found that there is a significant difference in crime rates between the two neighbourhoods using hypothesis testing at a 95% confidence level. <br>

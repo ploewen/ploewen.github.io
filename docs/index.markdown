@@ -7,11 +7,11 @@ layout: default
 ## Education
 
 - **University of British Columbia**, Vancouver, Canada <br>
-  Bachelor of Science, Mathematics, GPA: 86.2% <br>
+  Bachelor of Science, Mathematics <br>
   2021 - 2025 (Expected)
 
 - **University of the Fraser Valley**, Abbotsford, Canada <br>
-  Bachelor of Arts, GPA: 4.16/4.33 <br>
+  Bachelor of Arts<br>
   2020-2021
  
 - **Lycée René Goscinny**, Drap, France <br>
@@ -34,9 +34,3 @@ layout: default
 - **[Obesity level prediction based on lifestyle using k-nn ](dsci_100.html)** (Spring 2022)<br>
   Group project for DSCI 100, Introduction to Data Science. We correctly predicted obesity levels at a rate of 72%, using physical activity frequency, water intake, daily technology usage and weight. <br>
   <br>
-
-##  Distinctions
-
-- **UBC Dean's List**, 2023, 2024
-- **UFV Dean's List**, 2021
-- **Baccalauréat avec Mention Bien**, 2018

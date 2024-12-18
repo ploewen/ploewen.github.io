@@ -6,11 +6,15 @@ layout: default
 
 ## Education
 
-- **University of British Columbia** <br>
-  Bachelor of Science, Mathematics, GPA: 85.6% <br>
-  2021 - present
+- **University of British Columbia**, Vancouver, Canada <br>
+  Bachelor of Science, Mathematics, GPA: 86.2% <br>
+  2021 - 2025 (Expected)
+
+- **University of the Fraser Valley**, Abbotsford, Canada <br>
+  Bachelor of Arts, GPA: 4.16/4.33 <br>
+  2020-2021
  
-- **Lycée René Goscinny** <br>
+- **Lycée René Goscinny**, Drap, France <br>
   Baccalauréat Scientifique, spécialité maths <br>
   2015-2018
 <br>
@@ -33,5 +37,6 @@ layout: default
 
 ##  Distinctions
 
-- UBC Dean's List, 2022-2023
-- Baccalauréat avec Mention Bien, 2018
+- **UBC Dean's List**, 2023, 2024
+- **UFV Dean's List**, 2021
+- **Baccalauréat avec Mention Bien**, 2018

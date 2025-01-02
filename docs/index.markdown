@@ -20,7 +20,7 @@ layout: default
 <br>
 
 ## Projects
-- **[Putting UBCSecure to a test](STAT 404 Project.pdf)<br>** (Fall 2024)<br>
+- **[Putting UBCSecure to a test](stat_404.pdf)<br>** (Fall 2024)<br>
 
 - **[Predicting death following a heart failure](stat_306.html)** (Spring 2023)<br>
 

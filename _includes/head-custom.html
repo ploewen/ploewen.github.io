@@ -1,0 +1,43 @@
+<style>
+html {
+	scroll-behavior: smooth;
+}
+
+.site-footer-owner {
+	display: none;
+}
+.page-header {
+  background-color: #0f4c5c;
+  background-image: linear-gradient(120deg, #111445, #1d9797);
+}
+
+.page-header .project-name,
+.page-header .project-tagline {
+  color: #ffffff;
+}
+
+.page-header .btn {
+  border-color: rgba(255, 255, 255, 0.55);
+  color: #ffffff;
+}
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+	const headerButton = document.querySelector(".page-header .btn");
+	if (!headerButton) {
+		return;
+	}
+
+	headerButton.textContent = "View Projects";
+	headerButton.setAttribute("href", "#projects");
+	headerButton.removeAttribute("target");
+	headerButton.removeAttribute("rel");
+
+	const notesButton = document.createElement("a");
+	notesButton.className = headerButton.className;
+	notesButton.textContent = "Course Notes";
+	notesButton.setAttribute("href", "#course-notes");
+	headerButton.insertAdjacentElement("afterend", notesButton);
+});
+</script>

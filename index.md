@@ -90,13 +90,13 @@ Hi! I'm Philip, a graduate student at the University of Toronto in the departmen
     <div class="note-card">
       <span class="note-badge">Mathematics</span>
       <span class="date-badge">2024</span>
-      <h3><a href="ploewen.github.io/assets/notes/Lecture_Notes_310.pdf" target="_blank">MATH 310: Abstract Linear Algebra</a></h3>
+      <h3><a href="/assets/notes/Lecture_notes_310.pdf" target="_blank">MATH 310: Abstract Linear Algebra</a></h3>
     </div>
     
    <div class="note-card">
       <span class="note-badge">Mathematics</span>
       <span class="date-badge">2024</span>
-      <h3><a href="ploewen.github.io/assets/notes/Lecture_Notes_321.pdf" target="_blank">MATH 321: Real Variables II</a></h3>
+      <h3><a href="/assets/notes/Lecture_Notes_321.pdf" target="_blank">MATH 321: Real Variables II</a></h3>
     </div>
   </div>
 </section>

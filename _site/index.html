@@ -23,7 +23,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="stylesheet" href="/assets/css/style.css?v=a164258c7f6edef0ba9f7c792cedf49246cda60e">
+    <link rel="stylesheet" href="/assets/css/style.css?v=144e189382b809f77fa74eca88abc0693a9c98bc">
     <style>
 html {
 	scroll-behavior: smooth;
@@ -61,25 +61,76 @@ html {
   border-color: rgba(255, 255, 255, 0.55);
   color: #ffffff;
 }
+
+.footer-contact-info {
+	display: block;
+	margin: 0 0 0.6rem;
+	color: #606c71;
+	font-size: 0.98rem;
+}
+
+.footer-contact-info-title {
+	font-weight: 700;
+}
+
+.footer-contact-info a {
+	color: #1e6bb8;
+}
+
+@media screen and (max-width: 42em) {
+	.footer-contact-info {
+		margin: 0 0 0.6rem;
+	}
+}
 </style>
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
-	const headerButton = document.querySelector(".page-header .btn");
-	if (!headerButton) {
+	const header = document.querySelector(".page-header");
+	if (!header) {
 		return;
+	}
+
+	let headerButton = header.querySelector(".btn");
+	if (!headerButton) {
+		headerButton = document.createElement("a");
+		headerButton.className = "btn";
+		header.appendChild(headerButton);
 	}
 
 	headerButton.textContent = "View Projects";
 	headerButton.setAttribute("href", "#projects");
 	headerButton.removeAttribute("target");
 	headerButton.removeAttribute("rel");
+	headerButton.removeAttribute("download");
+
+	const existingNotesButton = Array.from(header.querySelectorAll(".btn")).find(function (el) {
+		return el !== headerButton && el.getAttribute("href") === "#course-notes";
+	});
+	if (existingNotesButton) {
+		existingNotesButton.remove();
+	}
 
 	const notesButton = document.createElement("a");
-	notesButton.className = headerButton.className;
+	notesButton.className = "btn";
 	notesButton.textContent = "Course Notes";
 	notesButton.setAttribute("href", "#course-notes");
+	notesButton.removeAttribute("target");
+	notesButton.removeAttribute("rel");
+	notesButton.removeAttribute("download");
 	headerButton.insertAdjacentElement("afterend", notesButton);
+
+	const footerCredits = document.querySelector(".site-footer-credits");
+	if (footerCredits && !footerCredits.querySelector(".footer-contact-info")) {
+		const contactInfo = document.createElement("span");
+		contactInfo.className = "footer-contact-info";
+		contactInfo.innerHTML =
+			'<span class="footer-contact-info-title">Contact Information</span><br>' +
+			'Academic Email: <a href="mailto:philip.loewen@mail.utoronto.ca">philip.loewen@mail.utoronto.ca</a><br>' +
+			'Professional Email: <a href="mailto:philip.m.loewen@gmail.com">philip.m.loewen@gmail.com</a><br>' +
+			'My Links: <a href="https://github.com/ploewen" target="_blank" rel="noopener">GitHub</a> | <a href="https://www.linkedin.com/in/philip-loewen-947a6124a/" target="_blank" rel="noopener">LinkedIn</a> | <a href="/assets/Philip%20Loewen%20Resume%202026.pdf" target="_blank" rel="noopener">CV</a>';
+		footerCredits.insertAdjacentElement("beforebegin", contactInfo);
+	}
 });
 </script>
 

@@ -2,7 +2,7 @@
 layout: default
 ---
 
-Hi! I'm Philip, a graduate student at the University of Toronto in the department of Statistical Sciences. I have have a deep interest in machine learning, and mathematical optimization. My current research focuses on investigating the intrinsic biases of deep learning models within time series data. I enjoy exploring how high-capacity models represent complex information and identifying where they succeed or fail across different domains.
+Hi! I’m Philip, a Statistics graduate student at the University of Toronto specializing in predictive modeling and mathematical optimization. My research focuses on the internal mechanics of deep learning for time series data, specifically identifying model biases to improve reliability and performance. I bridge the gap between complex statistical theory and scalable machine learning solutions to extract actionable insights from high-dimensional datasets.
 
 ---
 <section id="projects" class="projects-section">
@@ -20,10 +20,18 @@ Hi! I'm Philip, a graduate student at the University of Toronto in the departmen
 <div class="projects-grid">
 
   <!-- ── Python projects ── -->
+  <div class="project-card" data-lang="python sql">
+    <span class="lang-badge python">Python</span>
+    <span class="lang-badge sql">SQL</span>
+    <span class="status-badge in-progress">In Progress</span>
+    <h3><a href="https://github.com/ploewen/fintech_ledger " target="_blank">Fintech Ledger Simulator</a></h3>
+    <p>A robust backend simulator modeling high-fidelity financial transactions through statistical data generation and ACID-compliant PostgreSQL architecture.</p>
+  </div>
+
+
   <div class="project-card" data-lang="python">
     <span class="lang-badge python">Python</span>
     <span class="status-badge in-progress">In Progress</span>
-    <span class="date-badge">2026</span>
     <h3><a href="https://github.com/ploewen/Trajectory_Prediction " target="_blank">nuScenes Trajectory Prediction</a></h3>
     <p>A comparative study of RNN and Transformer architectures for forecasting autonomous agent trajectories using standardized spatio-temporal preprocessing.</p>
   </div>
@@ -31,7 +39,6 @@ Hi! I'm Philip, a graduate student at the University of Toronto in the departmen
   <div class="project-card" data-lang="python">
     <span class="lang-badge python">Python</span>
     <span class="status-badge in-progress">In Progress</span>
-    <span class="date-badge">2026</span>
     <h3><a href="https://github.com/ploewen/zooplankton" target="_blank">Zooplankton Hierarchical Classification</a></h3>
     <p>A hybrid CNN-RNN architecture that treats hierarchical zooplankton identification as a sequence prediction task to achieve high-precision taxonomic classification.</p>
   </div>
@@ -269,12 +276,15 @@ Hi! I'm Philip, a graduate student at the University of Toronto in the departmen
 }
 
 .status-badge {
+  position: absolute;
+  top: 12px;
+  right: 12px;
   display: inline-block;
-  margin-left: 8px;
-  padding: 2px 10px;
-  border-radius: 12px;
-  font-size: 0.72rem;
-  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-size: 0.66rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
@@ -331,7 +341,11 @@ Hi! I'm Philip, a graduate student at the University of Toronto in the departmen
       // Show/hide cards
       let visible = 0;
       cards.forEach(function (card) {
-        const show = filter === 'all' || card.getAttribute('data-lang') === filter;
+        const langs = (card.getAttribute('data-lang') || '')
+          .toLowerCase()
+          .split(/[\s,]+/)
+          .filter(Boolean);
+        const show = filter === 'all' || langs.includes(filter);
         card.style.display = show ? '' : 'none';
         if (show) visible++;
       });

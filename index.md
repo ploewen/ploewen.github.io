@@ -78,15 +78,6 @@ Hi! I’m Philip, a Statistics graduate student at the University of Toronto spe
     <h3><a href="https://github.com/ploewen/Stat_306_Project" target="_blank">Logistic Regression: Death following Heart Failure</a></h3>
     <p>A multivariate logistic regression analysis that achieves 86% accuracy in predicting heart failure mortality by optimizing feature selection through AIC, BIC, and Principal Component Analysis.</p>
   </div>
-
-  <!-- ── SQL projects ── -->
-<!--   
-  <div class="project-card" data-lang="sql">
-    <span class="lang-badge sql">SQL</span>
-    <span class="date-badge">Date TBD</span>
-    <h3><a href="https://github.com/ploewen/your-repo-5" target="_blank">Project Title 5</a></h3>
-    <p>Short description of what this project does and what problem it solves.</p>
-  </div> -->
 </div>
 </section>
 
@@ -97,13 +88,18 @@ Hi! I’m Philip, a Statistics graduate student at the University of Toronto spe
     <div class="note-card">
       <span class="note-badge">Mathematics</span>
       <span class="date-badge">2024</span>
-      <h3><a href="/assets/notes/Lecture_notes_310.pdf" target="_blank">MATH 310: Abstract Linear Algebra</a></h3>
+      <h3><a href="/assets/notes/Lecture_notes_310.pdf" target="_blank">UBC MATH 310: Abstract Linear Algebra</a></h3>
     </div>
     
    <div class="note-card">
       <span class="note-badge">Mathematics</span>
       <span class="date-badge">2024</span>
-      <h3><a href="/assets/notes/Lecture_Notes_321.pdf" target="_blank">MATH 321: Real Variables II</a></h3>
+      <h3><a href="/assets/notes/Lecture_Notes_321.pdf" target="_blank">UBC MATH 321: Real Variables II</a></h3>
+    </div>
+   <div class="note-card">
+      <span class="note-badge">Statistics</span>
+      <span class="date-badge">2026</span>
+      <h3><a href="/assets/notes/Lecture_notes_2201.pdf" target="_blank">UofT STA2201: Methods of Applied Statistics II</a></h3>
     </div>
   </div>
 </section>

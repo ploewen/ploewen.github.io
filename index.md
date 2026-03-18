@@ -96,6 +96,11 @@ Hi! I’m Philip, a Statistics graduate student at the University of Toronto spe
       <h3><a href="/assets/notes/Lecture_notes_419.pdf" target="_blank">UBC MATH 419/545: Stochastic Processes</a></h3>
     </div>
     <div class="note-card">
+      <span class="note-badge">Statistics</span>
+      <span class="date-badge">2024</span>
+      <h3><a href="/assets/notes/Lecture_notes_460.pdf" target="_blank">UBC STAT 460/560: Statistical Inference I</a></h3>
+    </div>
+    <div class="note-card">
       <span class="note-badge">Mathematics</span>
       <span class="date-badge">2024</span>
       <h3><a href="/assets/notes/Lecture_notes_310.pdf" target="_blank">UBC MATH 310: Abstract Linear Algebra</a></h3>

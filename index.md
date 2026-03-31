@@ -38,7 +38,6 @@ Hi! I’m Philip, a Statistics graduate student at the University of Toronto spe
 
   <div class="project-card" data-lang="python">
     <span class="lang-badge python">Python</span>
-    <span class="status-badge in-progress">In Progress</span>
     <h3><a href="https://github.com/ploewen/zooplankton" target="_blank">Zooplankton Hierarchical Classification</a></h3>
     <p>A hybrid CNN-RNN architecture that treats hierarchical zooplankton identification as a sequence prediction task to achieve high-precision taxonomic classification.</p>
   </div>
